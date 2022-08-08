@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, inital-scale=1.0">
+    <title>midias em HTM5</title>
+    <style>
+        body{
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(min-width: )" srcset="" type="image/">
+        <source media="(max-width: 750px)" srcset="imagens/imagem.p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem.m.png" type="image/png">
+        <img src="imagens/imagem.g.png" alt="imagem flexivel">
+    </picture>
+
+    <p>aprendendo a por audio nessa budega</p>
+    <audio preload="metadata"autoplay controls loop>
+        <source src="midia/heykids.mp3" type="audio/mpeg">
+        <source src="midia/heykids.mp3" type="audio/ogg">
+        <p>seu navegador não roda mp3,va para dowmloads <a href="midia/heykids.mp3"></a></p>
+    </audio>
+    
+</body>
+</html>
+

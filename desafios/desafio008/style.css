@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #8f8f8f;
+}
+
+p{
+    text-align: justify;
+}
+.strong{
+    font-weight: bolder;
+    color: #0e680e;
+}
+.strong2{
+    font-weight: bolder;
+    color: rgba(255, 255, 0, 0.925);
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a::before{
+    content: '=>';
+    text-decoration: none;
+}

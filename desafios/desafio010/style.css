@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+}
+
+strong {
+    color: #195C38;
+}
+
+header {
+     background-image: linear-gradient(to bottom,#50c083 , #195C38);
+     color: white;
+     padding: 10px;
+     box-shadow: 7px 9px 10px rgba(0, 0, 0, 0.281)
+}
+
+#assunto {
+    text-align: center;
+    text-shadow: 4px 2px 6px #00000079;
+}
+
+p#pcentral{
+    text-align: center;
+    text-shadow: 4px 2px 6px #0000003f;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #195c3800;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(211, 211, 211);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 800px;
+    border: 50px;
+    border-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 5px 7px 15px #00000059;
+}
+
+#titulo{
+    text-align: center;
+    color:#195C38;
+    text-shadow: none;
+    font-family:'idroid';
+}
+
+h2 {
+    color:#195C38;
+    text-shadow: none;
+    font-family:'idroid';
+    box-shadow: 5px 10px 20px inset #195c386b;
+}
+
+img {
+    width: 100%;
+}
+
+main img.pqimg {
+    width: min-content;
+    display: block;
+    margin: auto;
+}
+
+#video {
+    background-color: #195C38;
+    padding: 25px 25px 25px 135px;
+    margin: 0%;
+}
+
+aside {
+    background-color:#C5EBD6 ;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#asidetittle {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
+    color: white;
+    background-color: #24aa60;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+footer {
+    text-align: center;
+    background-color: #195C38;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.strrp{
+    color: white;
+}
+
+

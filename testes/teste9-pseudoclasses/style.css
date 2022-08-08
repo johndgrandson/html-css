@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background-color: #202020;
+    color: #BD92FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo:hover{
+    color: #8466B0;
+    font-style: italic;
+    text-shadow:2px 2px 2px #544170;
+}
+
+h1{
+    text-shadow:2px 2px 2px #544170;
+}
+
+h2{
+    color: #7b5fa7;
+    text-shadow:2px 2px 2px #54417070;
+}
+.main:hover {
+    color: aqua;
+}
+
+.cont:hover{
+    font-style: italic;
+    color: #68072f;
+    text-shadow:2px 2px 2px #68072f59;
+}
+
+div > p {
+    display: none
+}
+
+div:hover > p{
+    display:block;
+    background-color: #68072f;
+    font-weight: bolder;
+    width: 200px;
+}
+
+a{
+    color: #BD92FC;
+    text-decoration: none;
+}
+
+a:active{
+    color:blue;
+}

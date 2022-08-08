@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'old london' ;
+    src: url('fonts/Olondon_.otf') format('opentype'), url('fonts/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #faebd7;
+    font-family: 'old london';
+    text-align: center;
+    
+}
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+p {
+    font-size: 2em;
+}
+a {
+    color: #000000;
+}

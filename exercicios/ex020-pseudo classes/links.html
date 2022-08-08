@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 167, 167);
+        }
+        a {
+            color: rgb(185, 24, 24);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{ /*sites q ja foram visitados*/
+            color: rgb(42, 95, 165);
+        }
+
+        a:hover {
+            color: #250000;
+            text-decoration: underline;
+        }
+
+        a:active{ /* sites q estao sendo 'segurados' com o mouse*/
+            color: rgb(72, 92, 33);
+        }
+        
+        a::after{
+            content:'[link]';
+            color: rgb(155, 155, 155);
+            font-weight: normal;
+            text-decoration:none;
+        }
+
+        .especial:hover{
+            background-color: #b8a3a3;
+        }
+
+        .especial::before {
+            content: 'site especial ';
+            color: rgb(255, 0, 200);
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalisando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" class="especial">repositorio do github</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="especial">canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">site do canal</a></li>
+        <li><a href="https://pt.vecteezy.com/vetor-gratis/emogi">site sem nada 1</a></li>
+
+    </ul>
+    
+</body>
+</html>

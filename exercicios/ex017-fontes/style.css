@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div {
+    background-color: rgb(211, 191, 164);
+    padding: 20px;
+    width: 650px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 15px #0000007a
+
+}
+body{
+    background-color: #b4946d;
+    font: normal 16px Arial, verdana, serif;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px #4141418a;
+}
+h2 {
+    text-align: right;
+    font-size: 1.7em;
+    text-shadow: 1px 1px 1px #4141418a;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
