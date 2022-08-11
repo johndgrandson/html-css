@@ -47,16 +47,25 @@ header > p {
 
 nav {
     background-color: #195C38;
+    margin-top: 40px;
+    margin-bottom: -35px;
 }
 
 nav > a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    padding: 10px;
 }
 
 nav > a:hover {
     text-decoration: underline;
+    background-color: #2FA866;
+}
+
+nav > a:active {
+    color: #84E1AD;
+    background-color: #21804d;
 }
 
 main {
