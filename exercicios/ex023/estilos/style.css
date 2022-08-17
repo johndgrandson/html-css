@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+td, th {
+    border:1px solid black;
+    padding: 10px;
+    text-transform:capitalize;
+}
+
+thead, tfoot {
+    background-color: #383838;
+    color:white;
+}
+
+.num {
+    text-align: right;
+}
+caption {
+    background-color: rgb(190, 190, 190);
+    font-size: 2em;
+    text-transform:capitalize;
+    font-weight:bold;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: gray;
+}
+
+thead > tr > th {
+    position: sticky;
+    top:-1px;
+    background-color: #383838;
+}
