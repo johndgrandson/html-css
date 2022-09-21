@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="cadastro.php" method="get" autocomplete="">
+        <div>
+            <label for="iest">Qual seu estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="Sudeste">
+                    <option value="SP">SP</option>
+                    <option value="MG">MG</option>
+                    <option value="RJ" selected>RJ</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="CE">CE</option>
+                    <option value="BA">BA</option>
+                    <option value="MA">MA</option>
+                    <option value="etc">etc</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="itext">Profição </label>
+            <input type="text" name="text" id="itext" list="profições">
+            <datalist id="profições">
+                <option>administrador</option>
+                <option>medico</option>
+                <option>egenheiro</option>
+                <option>programador</option>
+                <option>professor</option>
+            </datalist>
+        </div>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="iidade">Qual sua idade</label>
+            <input type="range" name="idade" id="iidade" min="3" max="99" value="18" oninput="ival.innerHTML = Number(iidade.value)">
+            <output id="ival">18</output>
+        </div>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
