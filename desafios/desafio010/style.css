@@ -95,9 +95,20 @@ main img.pqimg {
 }
 
 #video {
+    position: relative;
     background-color: #195C38;
+    height: 400px;
     padding: 25px 25px 25px 135px;
     margin: 0%;
+}
+
+#video > iframe {
+    position: absolute;
+    width: 90%;
+    height: 87%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 aside {
